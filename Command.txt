@@ -1,6 +1,28 @@
 docker --version 查看版本号
 
+##
+容器相关
+
 docker run -d -p 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  --name容器名字，可以省略
 
 
 docker ps 查看正在运行的容器。
+
+ocker port 可以查看指定 （ID或者名字）容器的某个确定端口映射到宿主机的端口号。
+
+docker logs [ID或者名字] 可以查看容器内部的标准输出。
+
+使用 docker inspect 来查看Docker的底层信息。它会返回一个 JSON 文件记录着 Docker 容器的配置和状态信息。
+
+docker stop 名字  停止
+
+docker start 容器名字 启动
+
+docker rm 容器名字 移除不需要的容器 ,需先停止
+
+
+##
+镜像
+
+docker images 来列出本地主机上的镜像。
+ 
