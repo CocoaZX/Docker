@@ -2,7 +2,8 @@ docker --version 查看版本号
 
 ##容器相关
 
-docker run -d -p 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  --name容器名字，可以省略
+docker run -d -p -i -t 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  --name容器名字，可以省略 -i打开容器标准输入 
+-t:告诉docker为容器建立一个命令行终端。
 
 
 docker ps 查看正在运行的容器。
@@ -15,7 +16,7 @@ docker logs [ID或者名字] 可以查看容器内部的标准输出。
 
 docker stop 名字  停止
 
-docker start 容器名字 启动
+docker start 容器名字 启动  run 命令包含了create和start俩个命令
 
 docker rm 容器名字 移除不需要的容器 ,需先停止
 
@@ -27,3 +28,13 @@ docker images 来列出本地主机上的镜像。
 docker pull ubuntu:13.10 下载乌班图13.10，可以直接使用ubuntu来让docker自动下载
 
 docker search 查找
+
+docker 容器和镜像的区别
+
+https://www.cnblogs.com/bethal/p/5942369.html //容器和镜像的区别.简单讲容器会包含镜像，并且有一层可读可写层，但是镜像是只读的，只可以利用镜像的环境，来run容器的代码。
+
+docker run -it --name=app -p 8080:8000 -v /code:/usr/src/app --link=redis:db django bash  -v /code:/usr/src/app 表示把宿主机上的/code目录挂载到容器内的/usr/src/app目录，可以通过直接管理宿主机上的挂载目录来管理容器内部的挂载目录。 --link=redis:db 表示把redis容器以db别名与该容器建立关系，在该容器内以db作为主机名表示了redis容器的主机地址。
+
+commit 创建一个新的镜像
+
+
