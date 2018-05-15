@@ -1,0 +1,6 @@
+docker --version 查看版本号
+
+docker run -d -p 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  --name容器名字，可以省略
+
+
+docker ps 查看正在运行的容器。
