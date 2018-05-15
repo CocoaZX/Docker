@@ -1,7 +1,6 @@
 docker --version 查看版本号
 
-##
-容器相关
+##容器相关
 
 docker run -d -p 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  --name容器名字，可以省略
 
@@ -21,8 +20,10 @@ docker start 容器名字 启动
 docker rm 容器名字 移除不需要的容器 ,需先停止
 
 
-##
-镜像
+##镜像
 
 docker images 来列出本地主机上的镜像。
- 
+
+docker pull ubuntu:13.10 下载乌班图13.10，可以直接使用ubuntu来让docker自动下载
+
+docker search 查找
