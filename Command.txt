@@ -1,9 +1,16 @@
 docker --version 查看版本号
 
+#常用命令
+docker images 查看已有的镜像
+
+docker save -o image_name.tar image_name 导出镜像
+
+docker port con_id 看容器的端口映射情况
+
+docker attach con_name 进入容器
+ 
+
 ##容器相关
-
-docker run -d -p -i 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  --name容器名字，可以省略 -i打开容器标准输入 
-
 
 docker ps 查看正在运行的容器。 
 
@@ -34,8 +41,23 @@ docker 容器和镜像的区别
 
 https://www.cnblogs.com/bethal/p/5942369.html //容器和镜像的区别.简单讲容器会包含镜像，并且有一层可读可写层，但是镜像是只读的，只可以利用镜像的环境，来run容器的代码。
 
-docker run -it --name=app -p 8080:8000 -v /code:/usr/src/app --link=redis:db django bash  -v /code:/usr/src/app 表示把宿主机上的/code目录挂载到容器内的/usr/src/app目录，可以通过直接管理宿主机上的挂载目录来管理容器内部的挂载目录。 --link=redis:db 表示把redis容器以db别名与该容器建立关系，在该容器内以db作为主机名表示了redis容器的主机地址。
 
 commit 创建一个新的镜像
+
+
+## 运行命令解释
+
+docker run -it --name=app -p 8080:8000 -v /code:/usr/src/app  
+-w /usr/src/myapp --link=redis:db django bash 
+-it 创建完成后进入这个容器
+ -v /code:/usr/src/app 表示把宿主机上的/code目录挂载到容器内的/usr/src/app目录，可以通过直接管理宿主机上的挂载目录来管理容器内部的挂载目录。:为分割之前为宿主机路径 
+-w /usr/src/myapp :指定容器的/usr/src/myapp目录为工作目录
+--link=redis:db 表示把redis容器以db别名与该容器建立关系，在该容器内以db作为主机名表示了redis容器的主机地址。
+
+
+docker run -d -p ip 127.0.0.1:80:80 -i [name] 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  
+ip 为印射的端口，此处为把宿主机的80端口印射到容器80端口21
+--name后容器名字，可以省略 -i打开容器标准输入 
+
 
 
