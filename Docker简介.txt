@@ -2,6 +2,8 @@
 
 docker --version 查看版本号
 
+基本语法 docker [OPTIONS] COMMAND [arg…]
+
 #常用命令
 docker images 查看已有的镜像
 
@@ -30,6 +32,7 @@ docker start 容器名字 启动  run 命令包含了create和start俩个命令
 
 docker rm 容器名字 移除不需要的容器 ,需先停止
 
+sudo docker exec name 进入一个运行中的容器
 
 ##镜像
 
