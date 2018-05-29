@@ -1,3 +1,5 @@
+#Docker 是一个代替虚拟机的软件。提供应用可移植性。作为个人开发，docker可以免去最恶心的配置环境问题。 
+
 docker --version 查看版本号
 
 #常用命令
@@ -33,7 +35,7 @@ docker rm 容器名字 移除不需要的容器 ,需先停止
 
 docker images 来列出本地主机上的镜像。
 
-docker pull ubuntu:13.10 下载乌班图13.10，可以直接使用ubuntu来让docker自动下载
+docker pull ubuntu:13.10 下载ubuntu13.10，可以直接使用ubuntu
 
 docker search 查找
 
@@ -56,7 +58,7 @@ docker run -it --name=app -p 8080:8000 -v /code:/usr/src/app
 
 
 docker run -d -p ip 127.0.0.1:80:80 -i [name] 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  
-ip 为印射的端口，此处为把宿主机的80端口印射到容器80端口
+ip 为印射的端口，此处为把宿主机的80端口印射到容器80端口21
 --name后容器名字，可以省略 -i打开容器标准输入 
 
 
