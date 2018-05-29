@@ -5,7 +5,13 @@
  docker run -it --name container-test -h CONTAINER -v /data debian /bin/bash
 
  上面的命令会将/data挂载到容器中，并绕过联合文件系统，我们可以在主机上直接操作该目录。任何在该镜像/data路径的文件将会被复制到Volume
+ debian 是什么意思？
 
+
+docker run -v /home/adrian/data:/data debian ls /data
+
+该命令将挂载主机的/home/adrian/data目录到容器内的/data目录上。任何在/home/adrian/data目录的文件都将会出现在容器内。
+但是并没有挂载文件，只是把路径移植过去，很奇怪。
 
 
 
