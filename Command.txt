@@ -44,6 +44,9 @@ https://www.cnblogs.com/bethal/p/5942369.html //容器和镜像的区别.简单�
 
 commit 创建一个新的镜像
 
+docker inspect -f {{.Volumes}} containername-filename
+搜索容器下某个文件位置
+
 
 ## 运行命令解释
 

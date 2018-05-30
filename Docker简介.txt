@@ -14,6 +14,14 @@ docker port con_id 看容器的端口映射情况
 docker attach con_name 进入容器
  
 
+##配置相关
+CentOS: /etc/sysconfig/docker
+
+vim  /lib/systemd/system/docker.service
+
+ExecStart 为启动配置
+
+
 ##容器相关
 
 docker ps 查看正在运行的容器。 
@@ -31,6 +39,8 @@ docker stop 名字  停止
 docker start 容器名字 启动  run 命令包含了create和start俩个命令
 
 docker rm 容器名字 移除不需要的容器 ,需先停止
+
+rm －v -v为删除Volumes,最好每次都带上
 
 sudo docker exec name 进入一个运行中的容器
 
@@ -65,4 +75,11 @@ ip 为印射的端口，此处为把宿主机的80端口印射到容器80端口2
 --name后容器名字，可以省略 -i打开容器标准输入 
 
 
+docker run  -v $PWD/myapp:/usr/src/myapp  -w /usr/src/myapp python:3.5 python helloworld.py
+
+-v $PWD/myapp:/usr/src/myapp :将主机中当前目录下的myapp挂载到容器的/usr/src/myapp
+
+-w /usr/src/myapp :指定容器的/usr/src/myapp目录为工作目录
+
+python helloworld.py :使用容器的python命令来执行工作目录中的helloworld.py文件
 

@@ -12,7 +12,7 @@ docker run -v /home/adrian/data:/data debian ls /data
 
 该命令将挂载主机的/home/adrian/data目录到容器内的/data目录上。任何在/home/adrian/data目录的文件都将会出现在容器内。
 注意 :/ 容器不可为相对路径
-但是并没有挂载文件，只是把路径移植过去，很奇怪。
+
 
 docker run -it --name pythonVolumeTest -v $PWD/software/python/flask debian /bin/bash
 
