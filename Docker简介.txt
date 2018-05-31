@@ -42,7 +42,11 @@ docker rm 容器名字 移除不需要的容器 ,需先停止
 
 rm －v -v为删除Volumes,最好每次都带上
 
-sudo docker exec name 进入一个运行中的容器
+docker attach name 进入一个运行中的容器
+
+如果要正常退出不关闭容器，请按Ctrl+P+Q进行退出容器
+
+exit 退出容器会关闭当前容器
 
 ##镜像
 
