@@ -48,6 +48,8 @@ docker attach name 进入一个运行中的容器
 
 exit 退出容器会关闭当前容器
 
+docker Dockerfile中CMD会直接关闭docker，使用-d来让容器后台运行
+
 ##镜像
 
 docker images 来列出本地主机上的镜像。
@@ -83,7 +85,7 @@ docker run  -v $PWD/myapp:/usr/src/myapp  -w /usr/src/myapp python:3.5 python he
 
 -v $PWD/myapp:/usr/src/myapp :将主机中当前目录下的myapp挂载到容器的/usr/src/myapp
 
--w /usr/src/myapp :指定容器的/usr/src/myapp目录为工作目录
+-w /usr/src/myapp :指定容器的/usr/src/myapp目录为工作目录，不存在会创建
 
 python helloworld.py :使用容器的python命令来执行工作目录中的helloworld.py文件
 
