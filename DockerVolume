@@ -2,20 +2,28 @@
 
 为了能够保存（持久化）数据以及共享容器间的数据，Docker提出了Volume的概念。简单来说，Volume就是目录或者文件，它可以绕过默认的联合文件系统，而以正常的文件或者目录的形式存在于宿主机上。
 
- docker run -it --name container-test -h CONTAINER -v /data debian /bin/bash
+ docker run -it --name container-test -v /data:test 容器name /bin/bash
 
- 上面的命令会将/data挂载到容器中，并绕过联合文件系统，我们可以在主机上直接操作该目录。任何在该镜像/data路径的文件将会被复制到Volume
- debian 是什么意思？
-
-
-docker run -v /home/adrian/data:/data debian ls /data
+上面的命令会将/data挂载到容器test目录下，并绕过联合文件系统，我们可以在主机上直接操作该目录。任何在该镜像 /data路径的文件将会被复制到Volume。这样可以直接操作宿主机的data路径下文件。
+/bin/bash 是值解释此脚本的shell路径
 
 该命令将挂载主机的/home/adrian/data目录到容器内的/data目录上。任何在/home/adrian/data目录的文件都将会出现在容器内。
 注意 :/ 容器不可为相对路径
 
 
-docker run -it --name pythonVolumeTest -v $PWD/software/python/flask debian /bin/bash
 
+#数据共享
 
+如果要授权一个容器访问另一个容器的Volume，我们可以使用-volumes-from参数来执行docker run
+
+docker run -it -h NEWCONTAINER --volumes-from container-test debian /bin/bash
+
+NEWCONTAINER是什么意思呢，
+
+#删除Volumes
+docker rm来删除的容器，但是可能有很多的孤立的Volume仍在占用着空间。
+
+Volume只有在下列情况下才能被删除：
+该容器是用docker rm －v命令来删除的（-v是必不可少的）。
 
 部分内容转自http://dockone.io/article/128

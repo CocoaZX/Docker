@@ -1,0 +1,6 @@
+重启
+shutdown -r now
+
+关机
+shutdown -h now
+
