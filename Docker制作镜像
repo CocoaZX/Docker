@@ -1,0 +1,9 @@
+docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+
+Options:
+  -a, --author string    Author (e.g., "John Hannibal Smith <hannibal@a-team.com>")
+  -c, --change list      Apply Dockerfile instruction to the created image
+  -m, --message string   Commit message
+  -p, --pause            Pause container during commit (default true)
+
+ 好吧，没什么其他的，按照help做就好了。非常轻量级
