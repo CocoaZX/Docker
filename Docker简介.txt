@@ -60,6 +60,8 @@ docker search 查找
 
 docker 容器和镜像的区别
 
+docker rmi 删除镜像，需先rm容器
+
 https://www.cnblogs.com/bethal/p/5942369.html //容器和镜像的区别.简单讲容器会包含镜像，并且有一层可读可写层，但是镜像是只读的，只可以利用镜像的环境，来run容器的代码。
 
 

@@ -6,4 +6,5 @@ Options:
   -m, --message string   Commit message
   -p, --pause            Pause container during commit (default true)
 
+做完之后search是搜索不到的。但是可以直接run 起一个容器。写镜像ID就可以了
  好吧，没什么其他的，按照help做就好了。非常轻量级
