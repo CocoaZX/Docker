@@ -78,8 +78,8 @@ docker run -it --name=app -p 8080:8000 -v /code:/usr/src/app
 --link=redis:db 表示把redis容器以db别名与该容器建立关系，在该容器内以db作为主机名表示了redis容器的主机地址。
 
 
-docker run -d -p ip 127.0.0.1:80:80 -i [name] 80:80 --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  
-ip 为印射的端口，此处为把宿主机的80端口印射到容器80端口21
+docker run -d -p ip 127.0.0.1:80:80 -i [name]  --name webserver nginx  run 运行， -d 让容器在后台运行 -P:将容器内部使用的网络端口映射到我们使用的主机上  
+ip 为印射的端口，此处为把宿主机的80端口印射到容器80端口80
 --name后容器名字，可以省略 -i打开容器标准输入 
 
 
