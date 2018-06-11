@@ -85,6 +85,8 @@ ip 为印射的端口，此处为把宿主机的80端口印射到容器80端口8
 
 docker run  -v $PWD/myapp:/usr/src/myapp  -w /usr/src/myapp python:3.5 python helloworld.py
 
+docker run -ditp 1314:1314 -v /root/software/:/software/flask -w /software/flask Python3.6Falsk/version1 /bin/bash
+
 -v $PWD/myapp:/usr/src/myapp :将主机中当前目录下的myapp挂载到容器的/usr/src/myapp
 
 -w /usr/src/myapp :指定容器的/usr/src/myapp目录为工作目录，不存在会创建
