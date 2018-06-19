@@ -4,3 +4,4 @@ shutdown -r now
 关机
 shutdown -h now
 
+cd  ls  pwd whoami
