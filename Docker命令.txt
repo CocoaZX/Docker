@@ -11,7 +11,9 @@ docker save -o image_name.tar image_name 导出镜像
 
 docker port con_id 看容器的端口映射情况
 
-docker attach con_name 进入容器
+docker attach con_name 进入容器 这样有一个窗口进入其他窗口会卡死
+
+docker exec -it 775c7c9ee1e1 /bin/bash  这种方式更合适
  
 
 ##配置相关
@@ -27,6 +29,8 @@ ExecStart 为启动配置
 docker ps 查看正在运行的容器。 
 
 docker ps -a 查看所有的容器。
+
+docker -e 在实际应用场景中，不论是从安全还是可配置方面去考虑，很多参数是比较适合用环境变量加载进去的，比如数据库的连接信息，时区，还有字体支持等等，在创建容器的时候其实都可以使用-e 指定key/value进行传递环境变量进去。
 
 docker port 可以查看指定 （ID或者名字）容器的某个确定端口映射到宿主机的端口号。
 
