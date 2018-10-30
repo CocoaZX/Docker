@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def docker_mehtod():
     root_dir = os.path.dirname(os.getcwd())
-    return render_template("docker.html")#homepage.html在templates文件夹下
+    return app.send_static_file("html/docker.html")#homepage.html在templates文件夹下
 
 
 if __name__ == '__main__':
