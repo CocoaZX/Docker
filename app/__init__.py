@@ -1,12 +1,12 @@
-from  flask import Flask,send_from_directory,render_template
+from  flask import Flask,send_from_directory,render_template,send_file
 import os
 
-app = Flask(__name__)
+app = Flask(__name__,static_folder= "/Users/zhangxin/Desktop/Docker-/app/static")
+print( os.getcwd() + "/static")
 
 @app.route('/')
 def docker_mehtod():
-    root_dir = os.path.dirname(os.getcwd())
-    return app.send_static_file("html/docker.html")#homepage.html在templates文件夹下
+    return send_file("static/html/docker.html")
 
 
 if __name__ == '__main__':
