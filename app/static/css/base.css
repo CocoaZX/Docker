@@ -1,22 +1,22 @@
-*{color:black;)
+*{  color:black;
 }
 
 
-
-.title {
+.base{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: solid black 1px;
+}
+ 
+.title="base" {
     color: darkgray;
-    font: bold;
-
-div {
-    text-align: center; /*文字水平居中对齐*/
-    line-height: 20px; /*设置文字行距等于div的高度*/
-    overflow: hidden;
+    flex-grow: 1;
 }
-
-}
-
 .content{color: burlywood;height:20px; /*设置div的大小*/ /*边框*/
-    text-align: center; /*文字水平居中对齐*/
-    line-height: 20px; /*设置文字行距等于div的高度*/
-    overflow:hidden;
+    line-height: 25px; /*设置文字行距等于div的高度*/
+    flex-grow: 2;
 }
