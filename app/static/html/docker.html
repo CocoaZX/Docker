@@ -21,7 +21,7 @@
     </div>
 
    <div style="color:#000000">
-       <h3 style="color: #FFFFFF"> 常用命令:</h3>
+       <h3 style="color: #FFFFFF"> 常用命令</h3>
        <div>
            <h4 style="color: #FFFFFF">容器相关:</h4>
            <p  class="command"> docker ps&nbsp&nbsp&nbsp&nbsp</p>
@@ -48,10 +48,14 @@
            <p  class="command"> docker rmi &nbsp&nbsp&nbsp&nbsp<p>删除镜像，需先rm容器</p>
            <p  class="command"> commit &nbsp&nbsp&nbsp&nbsp<p>创建新镜像</p>
            <p  class="command"> docker search [name]&nbsp&nbsp&nbsp&nbsp<p style="width: 70%"> 查找镜像</p>
-           <p> docker image 和 container 区别。image文件是只读的，container可以读写。container在image基础上修改。<a style="color: blue" href="https://www.cnblogs.com/bethal/p/5942369.html" target="_blank" title="container和image区别详解">container和image区别详解</a> </p>
+           <p> docker image 和 container 区别。image文件是只读的，container可以读写。container在image基础上修改。<a style="color: green" href="https://www.cnblogs.com/bethal/p/5942369.html" target="_blank" title="container和image区别详解">container和image区别详解</a> </p>
 
        </div>
 
+       <div>
+           <h4 style="color: #FFFFFF;float:left;width: 100%">运行命令解释:</h4>
+           <p  class="command"> docker run -ditp 8080:8080 -v /root/software/:/software/flask -w /software/flask --name=XXX docker.io/python /bin/bash&nbsp&nbsp&nbsp&nbsp<p class="langConnect">本项目构建使用docker启动命令 -d 保持后台运行 -it创建完成后进入这个容器并打开容器内控制台 -w /software/flask :指定容器的/software/flask目录为工作目录，不存在会创建。-v /code:/usr/src/app 表示把宿主机上的/code目录挂载到容器内的/usr/src/app目录，可以通过直接管理宿主机上的挂载目录来管理容器内部的挂载目录。:为分割之前为宿主机路径。</p>
+       </div>
 
 
 
