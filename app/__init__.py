@@ -6,6 +6,11 @@ app = Flask(__name__,static_folder= "/Users/zhangxin/Desktop/Docker-/app/static"
 def docker_mehtod():
     return send_file("static/html/docker.html")
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return send_file('templates/404.html'),404
+
+
 
 if __name__ == '__main__':
     app.debug = True
