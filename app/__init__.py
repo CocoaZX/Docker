@@ -8,6 +8,10 @@ bootstrap = Bootstrap(app)
 def docker_mehtod():
     return send_file("static/html/docker.html")
 
+@app.route('/oc')
+def oc_mehtod():
+    return send_file("static/html/OC.html")
+
 @app.route('/base')
 def base_mehtod():
     return send_file("static/html/404.html")
