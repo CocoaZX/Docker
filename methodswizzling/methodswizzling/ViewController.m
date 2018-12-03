@@ -53,9 +53,9 @@
 
 #pragma mark - Method Swizzling
 
--(void)viewWillAppear:(BOOL)animated{
-    
-}
+//-(void)viewWillAppear:(BOOL)animated{
+//    
+//}
 
 - (void)mrc_viewWillAppear:(BOOL)animated {
     [self mrc_viewWillAppear:animated];

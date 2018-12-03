@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B26CF8B21B5294200E023AA /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B26CF8A21B5294200E023AA /* MyClass.m */; };
+		5B26CF8E21B529A200E023AA /* MySubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B26CF8D21B529A200E023AA /* MySubClass.m */; };
 		5B343D7921B0D74C00875C1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B343D7821B0D74C00875C1F /* AppDelegate.m */; };
 		5B343D7C21B0D74C00875C1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B343D7B21B0D74C00875C1F /* ViewController.m */; };
 		5B343D7F21B0D74C00875C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B343D7D21B0D74C00875C1F /* Main.storyboard */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B26CF8921B5294200E023AA /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		5B26CF8A21B5294200E023AA /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		5B26CF8C21B529A200E023AA /* MySubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySubClass.h; sourceTree = "<group>"; };
+		5B26CF8D21B529A200E023AA /* MySubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySubClass.m; sourceTree = "<group>"; };
 		5B343D7421B0D74C00875C1F /* methodswizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = methodswizzling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B343D7721B0D74C00875C1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B343D7821B0D74C00875C1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,11 +68,15 @@
 				5B343D7821B0D74C00875C1F /* AppDelegate.m */,
 				5B343D7A21B0D74C00875C1F /* ViewController.h */,
 				5B343D7B21B0D74C00875C1F /* ViewController.m */,
+				5B26CF8921B5294200E023AA /* MyClass.h */,
+				5B26CF8A21B5294200E023AA /* MyClass.m */,
 				5B343D7D21B0D74C00875C1F /* Main.storyboard */,
 				5B343D8021B0D74F00875C1F /* Assets.xcassets */,
 				5B343D8221B0D74F00875C1F /* LaunchScreen.storyboard */,
 				5B343D8521B0D74F00875C1F /* Info.plist */,
 				5B343D8621B0D74F00875C1F /* main.m */,
+				5B26CF8C21B529A200E023AA /* MySubClass.h */,
+				5B26CF8D21B529A200E023AA /* MySubClass.m */,
 			);
 			path = methodswizzling;
 			sourceTree = "<group>";
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B26CF8B21B5294200E023AA /* MyClass.m in Sources */,
 				5B343D7C21B0D74C00875C1F /* ViewController.m in Sources */,
 				5B343D8721B0D74F00875C1F /* main.m in Sources */,
 				5B343D7921B0D74C00875C1F /* AppDelegate.m in Sources */,
+				5B26CF8E21B529A200E023AA /* MySubClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
