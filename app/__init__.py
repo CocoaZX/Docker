@@ -3,7 +3,7 @@ from flask_bootstrap import Bootstrap
 from datetime import  timedelta
 
 app = Flask(__name__,static_folder= "/users/zhangxin/desktop/docker-/app/static")
-app.config['send_file_max_age_default'] = timedelta(seconds=1)
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = timedelta(seconds=2)
 bootstrap = Bootstrap(app)#模板
 
 
