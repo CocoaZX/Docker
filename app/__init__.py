@@ -1,8 +1,11 @@
-from  flask import Flask,send_from_directory,render_template,send_file
+from flask import Flask,send_from_directory,render_template,send_file
 from flask_bootstrap import Bootstrap
+from datetime import  timedelta
 
 app = Flask(__name__,static_folder= "/users/zhangxin/desktop/docker-/app/static")
-bootstrap = Bootstrap(app)
+app.config['send_file_max_age_default'] = timedelta(seconds=1)
+bootstrap = Bootstrap(app)#模板
+
 
 @app.route('/docker')
 def docker_mehtod():
