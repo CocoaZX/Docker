@@ -6,7 +6,7 @@ bootstrap = Bootstrap(app)
 
 @app.route('/docker')
 def docker_mehtod():
-    return render_template('He.html')
+    return send_file("static/html/naviTest.html")
 
 @app.route('/oc')
 def oc_mehtod():
@@ -18,8 +18,8 @@ def base_mehtod():
 
 @app.route('/')
 def navi_mehtod():
-    return render_template('He.html')
-    # return send_file("static/html/he.html")
+    return send_file("static/html/naviTest.html")
+
 
 @app.errorhandler(404)
 def page_not_found(e):
