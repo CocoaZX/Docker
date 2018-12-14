@@ -9,7 +9,7 @@ bootstrap = Bootstrap(app)#模板
 
 @app.route('/docker')
 def docker_mehtod():
-    return send_file("static/html/naviTest.html")
+    return send_file("static/html/typeOC.html")
 
 @app.route('/oc')
 def oc_mehtod():
@@ -21,7 +21,7 @@ def base_mehtod():
 
 @app.route('/')
 def navi_mehtod():
-    return send_file("static/html/naviTest.html")
+    return send_file("static/html/typeOC.html")
 
 
 @app.errorhandler(404)
