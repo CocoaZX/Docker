@@ -9,7 +9,7 @@ bootstrap = Bootstrap(app)#模板
 
 @app.route('/docker')
 def docker_mehtod():
-    return send_file("static/html/typeOC.html")
+    return send_file("static/html/docker.html")
 
 @app.route('/oc')
 def oc_mehtod():
