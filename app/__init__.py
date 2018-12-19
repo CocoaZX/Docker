@@ -13,7 +13,13 @@ def docker_mehtod():
 
 @app.route('/oc')
 def oc_mehtod():
-    return send_file("static/html/oc.html")
+    return send_file("static/html/typeOC.html")
+
+
+@app.route('/typeDocker')
+def typeDocker_mehtod():
+    return send_file("static/html/typeDocker.html")
+
 
 @app.route('/base')
 def base_mehtod():
@@ -23,6 +29,10 @@ def base_mehtod():
 def navi_mehtod():
     return send_file("static/html/typeOC.html")
 
+
+@app.route('/objective-c-runtime-1')
+def oc_runtime_1():
+    return send_file("static/html/Objective-C/objective-c-runtime-1.html")
 
 @app.errorhandler(404)
 def page_not_found(e):
