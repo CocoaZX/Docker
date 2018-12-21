@@ -416,7 +416,7 @@ table {
   border: 1px solid #ddd;
   font-size: 14px;
   table-layout: fixed;
-  word-wrap: break-all;
+  word-wrap: break-spaces;
 }
 table>tbody>tr:nth-of-type(odd) {
   background-color: #f9f9f9;
@@ -667,14 +667,12 @@ pre .javascript .function {
 .page-home .post-type-quote blockquote::before,
 .page-post-detail .post-type-quote blockquote::before {
   top: -20px;
-  background-image: url("../images/quote-l.svg");
   border-top: 1px solid #ccc;
 }
 .blockquote-center::after,
 .page-home .post-type-quote blockquote::after,
 .page-post-detail .post-type-quote blockquote::after {
   bottom: -20px;
-  background-image: url("../images/quote-r.svg");
   border-bottom: 1px solid #ccc;
   background-position: 100% 8px;
 }
@@ -1622,7 +1620,7 @@ pre .javascript .function {
 }
 .post-toc ol a {
   transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: linear;
   transition-delay: 0s;
   transition-property: all;
   color: #666;
