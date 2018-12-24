@@ -865,6 +865,7 @@ pre .javascript .function {
 }
 .back-to-top.back-to-top-on {
   bottom: 40px;
+  width: 35px;
 }
 .header {
   background: #fff;
