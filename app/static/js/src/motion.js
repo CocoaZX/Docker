@@ -1,19 +1,6 @@
 /* global NexT: true */
-
-/*鼠标滑动一定距离的菜单效果*/
-$(document).scroll(function() {
-    var top=$(this).scrollTop();
-    console.log(top);
-
-    if(top>90) {
-        $(".sidebar").css("top","0");
-    }
-    if(top<90) {
-        $(".sidebar").css("top","90px");
-    }
-})
-
 $(document).ready(function () {
+
     NexT.motion = {};
 
     var sidebarToggleLines = {
