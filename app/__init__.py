@@ -34,6 +34,27 @@ def navi_mehtod():
 def oc_runtime_1():
     return send_file("static/html/Objective-C/objective-c-runtime-1.html")
 
+@app.route('/objective-c-runtime-2')
+def oc_runtime_2():
+    return send_file("static/html/Objective-C/objective-c-runtime-2.html")
+
+@app.route('/objective-c-runtime-3')
+def oc_runtime_3():
+    return send_file("static/html/Objective-C/objective-c-runtime-3.html")
+
+@app.route('/objective-c-runtime-4')
+def oc_runtime_4():
+    return send_file("static/html/Objective-C/objective-c-runtime-4.html")
+
+@app.route('/objective-c-runtime-5')
+def oc_runtime_5():
+    return send_file("static/html/Objective-C/objective-c-runtime-5.html")
+
+@app.route('/objective-c-runtime-6')
+def oc_runtime_6():
+    return send_file("static/html/Objective-C/objective-c-runtime-6.html")
+
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
