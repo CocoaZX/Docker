@@ -37,7 +37,7 @@
     </script>
 
 
-    <link rel="canonical" href="47.106.99.78:8080/objective-c-runtime-1"/>
+    <link rel="canonical" href="47.106.99.78:8080/objective-c-runtime-3"/>
     <title> 分类: Objective-C Runtime | Crow 的技术博客</title>
 
 </head>
@@ -234,7 +234,7 @@
                                                 <pre><div class="line">1</div></pre>
                                             </td>
                                             <td class="code">
-                                                <pre><div class="line"><span class="number">2014</span><span
+                                                <pre><div class="line"><span class="number">2016</span><span
                                                         class="number">-10</span><span class="number">-30</span> <span
                                                         class="number">18</span>:<span class="number">40</span>:<span
                                                         class="number">07.518</span> RuntimeTest[<span class="number">52734</span>:<span
@@ -519,7 +519,7 @@
                                     当消息发送给一个对象时，<code>objc_msgSend</code>通过对象的<code>isa</code>指针获取到类的结构体，然后在方法分发表里面查找方法的<code>selector</code>。如果没有找到<code>selector</code>，则通过<code>objc_msgSend</code>结构体中的指向父类的指针找到其父类，并在父类的分发表里面查找方法的<code>selector</code>。依此，会一直沿着类的继承体系到达NSObject类。一旦定位到<code>selector</code>，函数会就获取到了实现的入口点，并传入相应的参数来执行方法的具体实现。如果最后没有定位到<code>selector</code>，则会走消息转发流程，这个我们在后面讨论。
                                 </p>
                                 <p>为了加速消息的处理，运行时系统缓存使用过的<code>selector</code>及对应的方法的地址。这点我们在<a
-                                        href="http://southpeak.github.io/blog/2014/10/25/objective-c-runtime-yun-xing-shi-zhi-lei-yu-dui-xiang/">前面</a>讨论过，不再重复。
+                                        href="http://southpeak.github.io/blog/2016/10/25/objective-c-runtime-yun-xing-shi-zhi-lei-yu-dui-xiang/">前面</a>讨论过，不再重复。
                                 </p>
                                 <h3 id="隐藏参数"><a href="#隐藏参数" class="headerlink" title="隐藏参数"></a>隐藏参数</h3>
                                 <p><code>objc_msgSend</code>有两个隐藏参数：</p>
