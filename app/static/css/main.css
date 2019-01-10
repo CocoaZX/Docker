@@ -1193,12 +1193,18 @@ pre .javascript .function {
 .posts-collapse .post-comments-count {
   display: none;
 }
-.posts-collapse .post-title {
-  margin-left: 60px;
+.post-title{
+  margin-left: 100px;
+}
+.posts-collapse .post-title{
   font-size: 16px;
   font-weight: normal;
   line-height: inherit;
 }
+.posts-collapse{
+  margin-left: 60px;
+}
+
 .posts-collapse .post-title::after {
   margin-left: 3px;
   opacity: 0.6;

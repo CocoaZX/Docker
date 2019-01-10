@@ -13,7 +13,7 @@
     <link href="/static/css/main.css" rel="stylesheet" type="text/css"/>
 
     <meta name="keywords" content="Hexo, NexT"/>
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico"/>
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Crow的技术博客">
@@ -99,11 +99,10 @@
                         </a>
                     </li>
 
-
-                    <li class="menu-item menu-item-home">
-                        <a href="/typeDocker" rel="section">
-                            <i class="menu-item-icon fa fa-fw fa-home"></i>
-                            Docker
+                     <li class="menu-item menu-item-objectivec">
+                        <a href="/categories/oc" rel="section">
+                            <i class="menu-item-icon fa fa-fw fa-taxi"></i> <br/>
+                            Objective-C
                         </a>
                     </li>
 
@@ -115,14 +114,20 @@
                         </a>
                     </li>
 
-
-                    <li class="menu-item menu-item-objectivec">
-                        <a href="/oc" rel="section">
-                            <i class="menu-item-icon fa fa-fw fa-taxi"></i> <br/>
-                            Objective-C
+                    <li class="menu-item menu-item-cocoa">
+                        <a href="/categories/github" rel="section">
+                            <i class="menu-item-icon fa fa-fw fa-subway"></i> <br/>
+                            Github
                         </a>
                     </li>
 
+
+                    <li class="menu-item menu-item-home">
+                        <a href="/categories/docker" rel="section">
+                            <i class="menu-item-icon fa fa-fw fa-home"></i>
+                            Docker
+                        </a>
+                    </li>
 
                     <li class="menu-item menu-item-cocoa">
                         <a href="/categories/cocoa" rel="section">
@@ -179,7 +184,7 @@
                                       </span>
                                       <span class="post-meta-item-text">分类于</span>
                                       <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                                          <a href="/oc" itemprop="url" rel="index">
+                                          <a href="/categories/oc" itemprop="url" rel="index">
                                               <span itemprop="name">Objective-C</span>
                                           </a>
                                       </span>
@@ -189,8 +194,6 @@
 
 
                             <div class="post-body" itemprop="articleBody">
-
-
                                 <p>
                                     前面我们讨论了Runtime中对类和对象的处理，及对成员变量与属性的处理。这一章，我们就要开始讨论Runtime中最有意思的一部分：消息处理机制。我们将详细讨论消息的发送及消息的转发。不过在讨论消息之前，我们先来了解一下与方法相关的一些内容。</p>
                                 <h2 id="基础数据类型"><a href="#基础数据类型" class="headerlink" title="基础数据类型"></a>基础数据类型</h2>
@@ -1015,21 +1018,13 @@
 
 
                             <div class="site-state-item site-state-categories">
-
                                 <span class="site-state-item-count">7</span>
                                 <span class="site-state-item-name">分类</span>
-
                             </div>
 
 
                         </nav>
-
-
-                        <div class="links-of-author motion-element">
-
-                        </div>
-
-
+                            <div class="links-of-author motion-element"></div>
                     </section>
 
 

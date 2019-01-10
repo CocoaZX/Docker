@@ -2,23 +2,30 @@ from flask import Flask,send_from_directory,render_template,send_file
 from flask_bootstrap import Bootstrap
 from datetime import  timedelta
 
-app = Flask(__name__,static_folder= "/users/zhangxin/desktop/docker-/app/static")
-app.config['SEND_FILE_MAX_AGE_DEFAULT'] = timedelta(seconds=2)
+app = Flask(__name__,static_folder = "/users/zhangxin/desktop/docker-/app/static")
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = timedelta(seconds = 2)
 bootstrap = Bootstrap(app)#模板
 
 
-@app.route('/docker')
-def docker_mehtod():
+
+# type
+@app.route('/categories/oc')
+def typeOc_mehtod():
+    return send_file("static/html/categories/typeOC.html")
+
+@app.route('/categories/temp')
+def temp_mehtod():
     return send_file("static/html/temp.html")
 
-@app.route('/oc')
-def oc_mehtod():
-    return send_file("static/html/typeOC.html")
 
-
-@app.route('/typeDocker')
+@app.route('/categories/docker')
 def typeDocker_mehtod():
-    return send_file("static/html/typeDocker.html")
+    return send_file("static/html/categories/typeDocker.html")
+
+
+@app.route('/categories/github')
+def typeGithub_mehtod():
+    return send_file("static/html/categories/typeGithub.html")
 
 
 @app.route('/base')
@@ -27,9 +34,12 @@ def base_mehtod():
 
 @app.route('/')
 def navi_mehtod():
-    return send_file("static/html/typeOC.html")
+    return send_file("static/html/Categories/typeOC.html")
 
 
+
+
+#OC
 @app.route('/objective-c-runtime-1')
 def oc_runtime_1():
     return send_file("static/html/Objective-C/objective-c-runtime-1.html")
@@ -53,6 +63,9 @@ def oc_runtime_5():
 @app.route('/objective-c-runtime-6')
 def oc_runtime_6():
     return send_file("static/html/Objective-C/objective-c-runtime-6.html")
+
+
+
 
 
 @app.errorhandler(404)
