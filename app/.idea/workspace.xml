@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/app$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1547450443254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/app$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1547696316661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileColors">
     <fileColor scope="All" color="000000" />
@@ -22,11 +22,8 @@
           <file leaf-file-name="objective-c-runtime-1.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="565">
-                  <caret line="180" column="41" lean-forward="true" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="52" />
-                  <folding>
-                    <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="3240">
+                  <caret line="180" column="41" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="52" />
                 </state>
               </provider>
             </entry>
@@ -34,11 +31,8 @@
           <file leaf-file-name="objective-c-runtime-2.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="565">
+                <state relative-caret-position="3186">
                   <caret line="177" column="61" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="61" />
-                  <folding>
-                    <element signature="n#nav#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -46,11 +40,8 @@
           <file leaf-file-name="objective-c-runtime-3.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-3.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="520">
-                  <caret line="177" column="73" lean-forward="true" selection-start-line="177" selection-start-column="63" selection-end-line="177" selection-end-column="73" />
-                  <folding>
-                    <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="3186">
+                  <caret line="177" column="73" selection-start-line="177" selection-start-column="63" selection-end-line="177" selection-end-column="73" />
                 </state>
               </provider>
             </entry>
@@ -58,11 +49,8 @@
           <file leaf-file-name="objective-c-runtime-4.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-4.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="503">
-                  <caret line="178" column="50" lean-forward="true" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="50" />
-                  <folding>
-                    <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="3204">
+                  <caret line="178" column="50" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -70,11 +58,8 @@
           <file leaf-file-name="objective-c-runtime-5.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-5.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="582">
-                  <caret line="178" column="50" lean-forward="true" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="50" />
-                  <folding>
-                    <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="3204">
+                  <caret line="178" column="50" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -82,8 +67,8 @@
           <file leaf-file-name="typeOC.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Categories/typeOC.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1348">
-                  <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+                <state relative-caret-position="2646">
+                  <caret line="147" selection-start-line="147" selection-end-line="147" />
                 </state>
               </provider>
             </entry>
@@ -96,7 +81,7 @@
           <file leaf-file-name="typeDocker.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Categories/typeDocker.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="652">
+                <state relative-caret-position="1782">
                   <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
                 </state>
               </provider>
@@ -105,7 +90,7 @@
           <file leaf-file-name="typeGithub.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Categories/typeGithub.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2469">
+                <state relative-caret-position="738">
                   <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
                 </state>
               </provider>
@@ -114,19 +99,8 @@
           <file leaf-file-name="objective-c-runtime-6.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-6.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="754">
-                  <caret line="195" column="52" lean-forward="true" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
-                  <folding>
-                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#11551#11555#0#HTML" expanded="true" />
-                    <element signature="e#11783#11787#0#HTML" expanded="true" />
-                    <element signature="e#11911#11915#0#HTML" expanded="true" />
-                    <element signature="e#17049#17054#0#HTML" expanded="true" />
-                    <element signature="e#17192#17196#0#HTML" expanded="true" />
-                    <element signature="e#26010#26014#0#HTML" expanded="true" />
-                    <element signature="e#26049#26053#0#HTML" expanded="true" />
-                  </folding>
+                <state relative-caret-position="177">
+                  <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -134,11 +108,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="typeOC.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/html/Categories/typeOC.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="535">
+                <state relative-caret-position="3420">
                   <caret line="190" column="49" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
                 </state>
               </provider>
@@ -148,7 +122,7 @@
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="380">
-                  <caret line="1199" column="18" lean-forward="true" selection-start-line="1199" selection-start-column="18" selection-end-line="1199" selection-end-column="18" />
+                  <caret line="1199" column="18" selection-start-line="1199" selection-start-column="18" selection-end-line="1199" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -272,9 +246,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-2560" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -297,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -405,6 +377,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,20 +471,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299389" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28241432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2820513" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.23523422" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15170771" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1558966" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.328614" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -522,29 +493,30 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328614" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28017884" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12986498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299389" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28017884" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29061103" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.23523422" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,13 +565,7 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/standardSchemas/xhtml1-transitional.dtd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/typeOC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/typeOC.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/standardSchemas/xhtml1-transitional.xsd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -657,9 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,9 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,9 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,9 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="905">
           <caret line="339" column="17" selection-start-line="339" selection-start-column="17" selection-end-line="339" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,28 +739,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43812">
           <caret line="2434" selection-start-line="2434" selection-end-line="2434" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/src/post-details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/src/scrollspy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,49 +773,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/docker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/typeOC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="121" column="44" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/html/typeDocker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/html/docker.html" />
+    <entry file="file://$PROJECT_DIR$/static/html/typeOC.html" />
+    <entry file="file://$PROJECT_DIR$/static/html/typeDocker.html" />
     <entry file="file://$PROJECT_DIR$/static/html/temp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#7605#7611#0#HTML" expanded="true" />
-            <element signature="e#7614#7620#0#HTML" expanded="true" />
-            <element signature="n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#11606#11610#0#HTML" expanded="true" />
-            <element signature="e#11838#11842#0#HTML" expanded="true" />
-            <element signature="e#11966#11970#0#HTML" expanded="true" />
-            <element signature="e#17104#17109#0#HTML" expanded="true" />
-            <element signature="e#17247#17251#0#HTML" expanded="true" />
-            <element signature="e#26065#26069#0#HTML" expanded="true" />
-            <element signature="e#26104#26108#0#HTML" expanded="true" />
-            <element signature="n#section#1;n#div#0;n#aside#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#33723#33729#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Categories/typeDocker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
+        <state relative-caret-position="1782">
           <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
         </state>
       </provider>
@@ -891,98 +797,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Categories/typeGithub.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2469">
+        <state relative-caret-position="738">
           <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="180" column="41" lean-forward="true" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="52" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="3240">
+          <caret line="180" column="41" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
+        <state relative-caret-position="3186">
           <caret line="177" column="61" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="61" />
-          <folding>
-            <element signature="n#nav#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="177" column="73" lean-forward="true" selection-start-line="177" selection-start-column="63" selection-end-line="177" selection-end-column="73" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="3186">
+          <caret line="177" column="73" selection-start-line="177" selection-start-column="63" selection-end-line="177" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="178" column="50" lean-forward="true" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="50" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="3204">
+          <caret line="178" column="50" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="178" column="50" lean-forward="true" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="50" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="3204">
+          <caret line="178" column="50" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Categories/typeOC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1348">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        <state relative-caret-position="2646">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="1199" column="18" lean-forward="true" selection-start-line="1199" selection-start-column="18" selection-end-line="1199" selection-end-column="18" />
+          <caret line="1199" column="18" selection-start-line="1199" selection-start-column="18" selection-end-line="1199" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/html/Objective-C/objective-c-runtime-6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="195" column="52" lean-forward="true" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#11551#11555#0#HTML" expanded="true" />
-            <element signature="e#11783#11787#0#HTML" expanded="true" />
-            <element signature="e#11911#11915#0#HTML" expanded="true" />
-            <element signature="e#17049#17054#0#HTML" expanded="true" />
-            <element signature="e#17192#17196#0#HTML" expanded="true" />
-            <element signature="e#26010#26014#0#HTML" expanded="true" />
-            <element signature="e#26049#26053#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
         </state>
       </provider>
     </entry>
