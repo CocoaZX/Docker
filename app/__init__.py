@@ -2,7 +2,7 @@ from flask import Flask,send_from_directory,render_template,send_file
 from flask_bootstrap import Bootstrap
 from datetime import  timedelta
 
-app = Flask(__name__,static_folder = "/users/zhangxin/desktop/docker-/app/static")
+app = Flask(__name__,static_folder = "static")
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = timedelta(seconds = 2)
 bootstrap = Bootstrap(app)#模板
 
